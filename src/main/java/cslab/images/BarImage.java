@@ -1,4 +1,4 @@
-package cslab.makeImages;
+package cslab.images;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartUtilities;

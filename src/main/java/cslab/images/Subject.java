@@ -1,5 +1,6 @@
-package cslab.makeImages;
+package cslab.images;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,7 @@ public class Subject {
     BarChartMonitor barChar;
     PieChartMonitor pieChar;
 
-    public void Update(){
+    public void Update() throws IOException {
         dates.clear();
         dates.add(40);
         dates.add(25);
