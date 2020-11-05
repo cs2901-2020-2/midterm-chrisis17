@@ -1,4 +1,4 @@
-package cslab.passCircularToBarImage;
+package cslab.makeImages;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Subject {
         dates.add(15);
         dates.add(20);
 
-        barChar.DataUpdate(dates);
-        pieChar.DataUpdate(dates);
+        barChar.Update(dates);
+        pieChar.Update(dates);
     }
 }
