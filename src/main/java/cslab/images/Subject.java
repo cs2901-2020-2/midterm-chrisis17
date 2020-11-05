@@ -16,7 +16,7 @@ public class Subject {
         dates.add(15);
         dates.add(20);
 
-        barChar.Update(dates);
-        pieChar.Update(dates);
+        barChar.UpdateData(dates);
+        pieChar.UpdateData(dates);
     }
 }

@@ -8,10 +8,10 @@ public class BarChartMonitor {
     BarImage barImage;
     List<Integer> dates = new ArrayList<>();
 
-    public void Update(List<Integer> data) throws IOException {
+    public void UpdateData(List<Integer> data) throws IOException {
         dates.clear();
         dates = data;
-        barImage.DoImage(dates);
+        barImage.MakeImage(dates);
     }
 
 }

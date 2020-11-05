@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class PieImage {
-    public void DoImage(List<Integer> dates) throws IOException {
+    public void MakeImage(List<Integer> dates) throws IOException {
         DefaultPieDataset dataset = new DefaultPieDataset();
         for (int date : dates){
             dataset.setValue("A",date);

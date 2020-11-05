@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class BarImage {
-    public void DoImage(List<Integer> dates) throws IOException {
+    public void MakeImage(List<Integer> dates) throws IOException {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         for (int date : dates){
             dataset.setValue(date,"A","B");
